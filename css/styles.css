@@ -424,3 +424,74 @@ a {
       order: 2;
     }
   }
+
+    /* Quotes */
+
+    .quote {
+        font-size: 2rem;
+        font-style: italic;
+        color: #8f8391;
+        padding-top: 10rem;
+    }
+    .quote__text::before {
+        content: open-quote;
+    }
+    .quote__text::after {
+        content: close-quote;
+    }
+    .author {
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--color-headings);
+    }
+    .quote .media__body h4 {
+        font-style: normal;
+        font-size: 2.2rem;
+        margin: 1rem 0;
+        
+    }
+
+      /* Media */
+  
+
+.media {
+    display: flex;
+    font-style: italic;
+  }
+  
+  .media__title {
+    margin-top: 0;
+  }
+  
+  .media__body {
+    margin: 0 2rem;
+  }
+  
+  .media__image {
+    margin-top: 1rem;
+  }
+
+  /* Testimonials */
+
+
+  .testimonial {
+    width: 1000px;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+    
+}
+.testimonial__image {
+    width: 100%;
+    
+    position: relative;
+}
+.testimonial__image > img {
+    width:400px ;
+    
+}
+
+.testimonial .quote {
+    margin: 0;
+}
