@@ -1,0 +1,56 @@
+<div class="products">
+  <div class="product product--beer">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <img src="images/pexels-elevate-1267323.jpg" alt="" />
+      </header>
+      <div class="card__body">
+        <p>
+          Od osvežavajućih lagera do hrskavih IPA-ova, otkrijte svet piva u
+          našem asortimanu. Uz svaku čašu našeg piva, doživećete pravo pivsko
+          iskustvo. Isprobajte limun, malinu i mnoge druge voćne ukuse
+        </p>
+        <button class="button button--outline button--block">
+          Saznaj vise
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="product product--food">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <img src="images/burgers.jpg" alt="" />
+      </header>
+      <div class="card__body">
+        <p>
+          Dark Horse Brewery takođe nudi ukusne obroke koji će upotpuniti vašu
+          posetu.Bilo da ste ljubitelj hrskavih pereca, ukusnih hamburgera ili
+          zdravih salata, naša hrana je savršen pratilac našim pivima.
+        </p>
+        <button class="button button--outline button--block">
+          Saznaj vise
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="product product--merch">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <img src="images/merch.jpg" alt="" />
+      </header>
+      <div class="card__body">
+        <p>
+          Bilo da tražite majice, čaše, magnete ili druge suvenire, naši
+          proizvodi će vam omogućiti da očuvate sećanje na vašu posetu i
+          podelite ga s drugima. Odaberite savršeni suvenir i ponesite deo Dark
+          Horse Brewery kući sa sobom
+        </p>
+        <button class="button button--outline button--block">
+          Saznaj vise
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
