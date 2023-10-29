@@ -1,0 +1,123 @@
+:root {
+    --color-primary: #c94700;
+    --color-secondary:#cfcfcf;
+    --color-accent:#561b61;
+    --color-body:#bebebe;
+    --color-headings:#1f1f1f;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    margin: 0 auto;
+    background: #fff;
+    color: var(--color-body);
+    font-family: Lato;
+    font-size: 2rem;
+    line-height: 1.5;
+    overflow: hidden;
+    width: 100vw;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    color: var(--color-headings);
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 4rem;
+}
+h4 {
+    font-size: 3rem;
+}
+p {
+    margin-top: 0;
+}
+
+/* Nav-bar */
+
+.nav-bar__logo-image {
+    
+    width: 64px;
+    height: 64px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background: var(--color-headings);
+}
+.nav-bar__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-bar__item {
+    padding: 0 2rem;
+    
+    text-decoration: none;
+}
+.nav-bar__item > a {
+    text-decoration: none;
+    color: #bebebe;
+    transition: 0.5s ease-in-out;
+}
+.nav-bar__item a:hover {
+    color: var(--color-primary);
+}
+.nav-bar__burger {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .nav-bar__list {
+        display: none;
+    }
+    .nav-bar__burger {
+        display: block;
+       
+    }
+    .nav-bar__burger-image {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-bar__logo-image {
+        width: 50px;
+        height: 50px;
+    }
+    .nav-bar .mobile-active {
+        display: flex;
+        flex-direction: column;
+        background: #1f1f1f;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-bar__item {
+        padding: 1rem 0;
+    }
+    .nav-bar__item:last-child {
+        padding-bottom: 2rem;
+    }
+}
