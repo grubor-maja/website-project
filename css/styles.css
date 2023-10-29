@@ -492,6 +492,30 @@ a {
     margin-top: 1rem;
   }
 
+  /* Contact */
+  .contact-banner {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 5rem;
+  }
+  
+  .contact-banner__heading {
+    font-size: 3rem;
+    color: var(--color-secondary);
+    margin: 0;
+    padding: 3rem;
+  }
+  
+  .contact-banner a.button {
+    margin-top: 1rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+  }
+  
+
+
   /* Testimonials */
 
 
@@ -501,6 +525,7 @@ a {
     padding: 2rem;
     grid-template-columns: 1fr 1fr;
     grid-gap:1rem;
+    margin: 0 auto;
     
 }
 .testimonial__image {
@@ -516,6 +541,11 @@ a {
 .testimonial .quote {
     margin: 0;
 }
+.testimonial-block header {
+    text-align: center;
+  }
+
+  
 
 /* Collapsibles */
 
