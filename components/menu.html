@@ -1,0 +1,93 @@
+<!-- function toggleMenu() {
+    var navbar = document.querySelector('.nav-bar__list');
+    navbar.classList.toggle('mobile-active')
+}
+
+const collapsibles = document.querySelectorAll(".collapsible");
+
+if(window.innerWidth<=768) {
+collapsibles.forEach((item) =>{
+    item.addEventListener("click", function() {
+        this.classList.toggle("collapsible--expanded");
+    })
+})
+}
+
+// Menu
+
+const menuData = [
+    {
+        category:'burgeri',
+        name:'Burger 1',
+        price:'$10.00',
+        image:'/images/burger.jpg',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+        category: 'burgeri',
+        name: 'Burger 2',
+        price: '$6.99',
+        image: '/images/burger.jpg',
+        description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+        category: 'pizza',
+        name: 'Pizza 1',
+        price: '$7.99',
+        image: '/images/burger.jpg',
+        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
+    },
+    {
+        category: 'sendvici',
+        name: 'Sendvič 1',
+        price: '$4.99',
+        image: '/images/burger.jpg',
+        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse.'
+    },
+]
+const menuGrid = document.getElementById('menu');
+const buttons = document.querySelectorAll('.menu-buttons button');
+
+displayMenu('all');
+
+buttons.forEach(button => {
+    button.addEventListener('click', function () {
+        const category = this.id;
+        displayMenu(category);
+    });
+});
+
+function displayMenu(category) {
+    menuGrid.innerHTML='';
+
+    menuData.filter(item => category === 'all' || item.category === category).forEach(item => {
+        const menuItem = document.createElement('div');
+        menuItem.classList.add('menu-item');
+
+        const img = document.createElement('img');
+        img.src = item.image;
+        menuItem.appendChild(img);
+
+        const info = document.createElement('div');
+        info.classList.add('menu-item-info');
+
+        const heading = document.createElement('h3');
+        heading.classList.add('menu-flex');
+        heading.textContent = item.name;
+        
+        info.appendChild(heading);
+
+        const price = document.createElement('p');
+        price.textContent = item.price;
+        price.classList.add('p1', 'menu-flex');
+        info.appendChild(price);
+
+        const description = document.createElement('p');
+        description.textContent = item.description;
+        description.classList.add('p2');
+        info.appendChild(description);
+
+        menuItem.appendChild(info);
+        menuGrid.appendChild(menuItem);
+    });
+} -->

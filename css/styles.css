@@ -644,3 +644,65 @@ footer .collapsible__heading {
     }
    
   }
+
+  /* Menu */
+
+  .menu-section, .drink-menu-section {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+hr {
+    border: 0.1rem solid #000;
+}
+
+.menu-buttons, .drink-menu-buttons {
+    margin: 2rem 0;
+}
+
+.menu-buttons > button,.drink-menu-buttons > button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+}
+
+.menu-grid, .drink-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding-left: 5rem;
+    
+}
+
+.menu-item, .drink-menu-item {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    height: auto;
+}
+
+.menu-item img, .drink-menu-item img {
+    width: 30rem;
+    height: 20rem;
+}
+
+.menu-item-info, .drink-menu-item-info {
+    width: 100%;
+    padding-left: 3rem;
+}
+.menu-item-info h3, .drink-menu-item-info h3 {
+    font-size: 3rem;
+    margin-top: 0;
+    
+    
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ 

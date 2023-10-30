@@ -9,274 +9,279 @@
   <body>
     <!-- Nav-bar -->
     <nav class="nav-bar">
-        <div class="nav-bar__logo">
-          <a href="#"
-            ><img
-              src="images/logo.png"
-              alt="Site logo"
-              class="nav-bar__logo-image"
-          /></a>
+      <div class="nav-bar__logo">
+        <a href="#"
+          ><img
+            src="images/logo.png"
+            alt="Site logo"
+            class="nav-bar__logo-image"
+        /></a>
+      </div>
+      <ul class="nav-bar__list">
+        <li class="nav-bar__item"><a href="index.html">POCETNA</a></li>
+        <li class="nav-bar__item"><a href="piva.html">PIVA</a></li>
+        <li class="nav-bar__item"><a href="hrana.html">HRANA</a></li>
+        <li class="nav-bar__item"><a href="merch.html">MERCH</a></li>
+        <li class="nav-bar__item"><a href="nasa-prica.html">NASA PRICA</a></li>
+        <li class="nav-bar__item"><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+      <div class="nav-bar__burger" onclick="toggleMenu()">
+        <img
+          src="images/burger-menu.png"
+          alt="Site logo"
+          class="nav-bar__burger-image"
+        />
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section class="block block--skewed-left block--dark">
+      <div class="container grid grid--cols-2">
+        <div class="hero__content">
+          <h1 class="block__heading">Pivnica dekstra</h1>
+          <p class="hero__subtitle">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ut
+            ea porro quis architecto cupiditate inventore blanditiis nobis
+            expedita quas.
+          </p>
+          <a href="#" class="button button--primary">Saznaj vise</a>
         </div>
-        <ul class="nav-bar__list">
-          <li class="nav-bar__item"><a href="index.html">POCETNA</a></li>
-          <li class="nav-bar__item"><a href="piva.html">PIVA</a></li>
-          <li class="nav-bar__item"><a href="hrana.html">HRANA</a></li>
-          <li class="nav-bar__item"><a href="merch.html">MERCH</a></li>
-          <li class="nav-bar__item"><a href="nasa-prica.html">NASA PRICA</a></li>
-          <li class="nav-bar__item"><a href="kontakt.html">KONTAKT</a></li>
-        </ul>
-        <div class="nav-bar__burger" onclick="toggleMenu()">
-          <img
-              src="images/burger-menu.png"
-              alt="Site logo"
-              class="nav-bar__burger-image"
-          />
-      </nav>
+        <img
+          src="images/cans-mockup.png"
+          alt="Hero image"
+          class="hero__image"
+        />
+      </div>
+    </section>
+    <!-- Our products -->
 
-      <!-- Hero section -->
-
-      <section class="block block--skewed-left block--dark">
-        <div class="container grid grid--cols-2">
-          <div class="hero__content">
-            <h1 class="block__heading">Pivnica dekstra</h1>
-            <p class="hero__subtitle">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ut ea
-              porro quis architecto cupiditate inventore blanditiis nobis expedita
-              quas.
+    <div class="products">
+      <div class="product product--beer">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <img src="images/pexels-elevate-1267323.jpg" alt="" />
+          </header>
+          <div class="card__body">
+            <p>
+              Od osvežavajućih lagera do hrskavih IPA-ova, otkrijte svet piva u
+              našem asortimanu. Uz svaku čašu našeg piva, doživećete pravo
+              pivsko iskustvo. Isprobajte limun, malinu i mnoge druge voćne
+              ukuse
             </p>
-            <a href="#" class="button button--primary">Saznaj vise</a>
-          </div>
-          <img src="images/cans-mockup.png" alt="Hero image" class="hero__image" />
-        </div>
-      </section>
-      <!-- Our products -->
-
-      <div class="products">
-        <div class="product product--beer">
-          <div class="card card--secondary">
-            <header class="card__title">
-              <img src="images/pexels-elevate-1267323.jpg" alt="" />
-            </header>
-            <div class="card__body">
-              <p>
-                Od osvežavajućih lagera do hrskavih IPA-ova, otkrijte svet piva u
-                našem asortimanu. Uz svaku čašu našeg piva, doživećete pravo pivsko
-                iskustvo. Isprobajte limun, malinu i mnoge druge voćne ukuse
-              </p>
-              <button class="button button--outline button--block">
-                Saznaj vise
-              </button>
-            </div>
-          </div>
-        </div>
-      
-        <div class="product product--food">
-          <div class="card card--secondary">
-            <header class="card__title">
-              <img src="images/burgers.jpg" alt="" />
-            </header>
-            <div class="card__body">
-              <p>
-                Dark Horse Brewery takođe nudi ukusne obroke koji će upotpuniti vašu
-                posetu.Bilo da ste ljubitelj hrskavih pereca, ukusnih hamburgera ili
-                zdravih salata, naša hrana je savršen pratilac našim pivima.
-              </p>
-              <button class="button button--outline button--block">
-                Saznaj vise
-              </button>
-            </div>
-          </div>
-        </div>
-      
-        <div class="product product--merch">
-          <div class="card card--secondary">
-            <header class="card__title">
-              <img src="images/merch.jpg" alt="" />
-            </header>
-            <div class="card__body">
-              <p>
-                Bilo da tražite majice, čaše, magnete ili druge suvenire, naši
-                proizvodi će vam omogućiti da očuvate sećanje na vašu posetu i
-                podelite ga s drugima. Odaberite savršeni suvenir i ponesite deo Dark
-                Horse Brewery kući sa sobom
-              </p>
-              <button class="button button--outline button--block">
-                Saznaj vise
-              </button>
-            </div>
+            <button class="button button--outline button--block">
+              Saznaj vise
+            </button>
           </div>
         </div>
       </div>
 
-      <!-- Features -->
+      <div class="product product--food">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <img src="images/burgers.jpg" alt="" />
+          </header>
+          <div class="card__body">
+            <p>
+              Dark Horse Brewery takođe nudi ukusne obroke koji će upotpuniti
+              vašu posetu.Bilo da ste ljubitelj hrskavih pereca, ukusnih
+              hamburgera ili zdravih salata, naša hrana je savršen pratilac
+              našim pivima.
+            </p>
+            <button class="button button--outline button--block">
+              Saznaj vise
+            </button>
+          </div>
+        </div>
+      </div>
 
-      <section class="block container">
-        <header class="block__header">
-          <h2>Raznolikost Voćnih Ukusa</h2>
+      <div class="product product--merch">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <img src="images/merch.jpg" alt="" />
+          </header>
+          <div class="card__body">
+            <p>
+              Bilo da tražite majice, čaše, magnete ili druge suvenire, naši
+              proizvodi će vam omogućiti da očuvate sećanje na vašu posetu i
+              podelite ga s drugima. Odaberite savršeni suvenir i ponesite deo
+              Dark Horse Brewery kući sa sobom
+            </p>
+            <button class="button button--outline button--block">
+              Saznaj vise
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Raznolikost Voćnih Ukusa</h2>
+        <p>
+          Naša pivara je poznata po širokom spektru voćnih pivskih aroma i
+          ukusa. Od sočnih trešanja do osvežavajućih limuna, pronađite svoj
+          omiljeni voćni karakter u našem pivu.
+        </p>
+      </header>
+      <article class="features grid grid--cols-2">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/beer.png"
+          /></span>
+          <h3>Novi Beograd, Novi Ukusi</h3>
           <p>
-            Naša pivara je poznata po širokom spektru voćnih pivskih aroma i ukusa. Od
-            sočnih trešanja do osvežavajućih limuna, pronađite svoj omiljeni voćni
-            karakter u našem pivu.
+            Nalazimo se blizu prelepog beogradskog keja, koji je savršeno mesto
+            za opuštanje i uživanje u našim voćnim pivima. Dark Horse Brewery
+            donosi novu dimenziju ukusa na obali reke, gde prirodna lepota
+            sastaje se sa jedinstvenim pivskim iskustvom.
           </p>
-        </header>
-        <article class="features grid grid--cols-2">
-          <div class="features__content">
-            <span class="icon-container">
-              <img class="icon" src="images/beer.png"
-            /></span>
-            <h3>Novi Beograd, Novi Ukusi</h3>
-            <p>
-              Nalazimo se blizu prelepog beogradskog keja, koji je savršeno mesto za
-              opuštanje i uživanje u našim voćnim pivima. Dark Horse Brewery donosi
-              novu dimenziju ukusa na obali reke, gde prirodna lepota sastaje se sa
-              jedinstvenim pivskim iskustvom.
-            </p>
-            <a href="#" class="button button--primary">Saznaj vise</a>
-          </div>
-          <img
-            src="images/pexels-elevate-1267323.jpg"
-            alt="Feature image"
-            class="features__image"
-          />
-        </article>
-      
-        <article class="features grid grid--cols-2">
-          <div class="features__content">
-            <span class="icon-container">
-              <img class="icon" src="images/beer-tap.png"
-            /></span>
-            <h3>Društvene Igre za Sve Ukuse</h3>
-            <p>
-              Uz fantastična piva, Dark Horse Brewery takođe nudi bogatu kolekciju
-              društvenih igara za sve ukuse. Bilo da ste ljubitelj društvenih igara,
-              karata ili šaha, kod nas ćete pronaći nešto što će vas zabaviti.
-              Povedite prijatelje na partiju omiljene igre uz čašu našeg najboljeg
-              piva i stvorite nezaboravne trenutke zajedništva.
-            </p>
-            <a href="#" class="button button--primary">Saznaj vise</a>
-          </div>
-          <img
-            src="images/pexels-elevate-1267348.jpg"
-            alt="Feature image"
-            class="features__image"
-          />
-        </article>
-      
-        <article class="features grid grid--cols-2">
-          <div class="features__content">
-            <span class="icon-container">
-              <img class="icon" src="images/home-brewing.png"
-            /></span>
-            <h3>Specijalni Događaji i Rezervacije</h3>
-            <p>
-              Želite da organizujete poseban događaj u našoj pivari? Dark Horse
-              Brewery vam pruža mogućnost za rezervaciju prostora za različite
-              specijalne događaje. Bez obzira da li planirate rođendansku proslavu,
-              korporativni događaj ili bilo koju drugu posebnu priliku, naš tim će vam
-              pomoći da organizujete nezaboravan trenutak.
-            </p>
-            <a href="#" class="button button--primary">Saznaj vise</a>
-          </div>
-          <img
-            src="images/pexels-pixabay-159291.jpg"
-            alt="Feature image"
-            class="features__image"
-          />
-        </article>
-      </section>
-      <!-- Contact Banner -->
+          <a href="#" class="button button--primary">Saznaj vise</a>
+        </div>
+        <img
+          src="images/pexels-elevate-1267323.jpg"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
 
-      <section class="contact-banner">
-        <div class="container">
-          <h2 class="contact-banner__heading">Kontaktirajte nas</h2>
-          <a href="#" class="button button--primary">Kontakt</a>
-        </div>
-      </section>
-      
-      <!-- Testimonials -->
-      
-      <div class="card testimonial">
-        <div class="testimonial__image">
-          <img
-            class="testimonial__image"
-            src="images/beer-guy.jpeg"
-            alt="Customer testimonial"
-          />
-        </div>
-      
-        <blockquote class="quote">
-          <p class="quote__text">
-            Jedna od stvari koja me posebno oduševila jeste njihova ponuda hrane.
-            Odlična hrana je odličan pratilac vrhunskih piva, i u Dark Horse Brewery
-            to zaista znaju. Hrskavi pereci, sočni burgeri i osvežavajuće salate su
-            savršeno upotpunjenje njihovih pivskih kreacija.
+      <article class="features grid grid--cols-2">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/beer-tap.png"
+          /></span>
+          <h3>Društvene Igre za Sve Ukuse</h3>
+          <p>
+            Uz fantastična piva, Dark Horse Brewery takođe nudi bogatu kolekciju
+            društvenih igara za sve ukuse. Bilo da ste ljubitelj društvenih
+            igara, karata ili šaha, kod nas ćete pronaći nešto što će vas
+            zabaviti. Povedite prijatelje na partiju omiljene igre uz čašu našeg
+            najboljeg piva i stvorite nezaboravne trenutke zajedništva.
           </p>
-          <footer>
-            <div class="media">
-              <div class="media__body">
-                <h4 class="author">Marko Petrovic</h4>
-                <p>Muzicki novinar</p>
-              </div>
-            </div>
-          </footer>
-        </blockquote>
+          <a href="#" class="button button--primary">Saznaj vise</a>
+        </div>
+        <img
+          src="images/pexels-elevate-1267348.jpg"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
+
+      <article class="features grid grid--cols-2">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/home-brewing.png"
+          /></span>
+          <h3>Specijalni Događaji i Rezervacije</h3>
+          <p>
+            Želite da organizujete poseban događaj u našoj pivari? Dark Horse
+            Brewery vam pruža mogućnost za rezervaciju prostora za različite
+            specijalne događaje. Bez obzira da li planirate rođendansku
+            proslavu, korporativni događaj ili bilo koju drugu posebnu priliku,
+            naš tim će vam pomoći da organizujete nezaboravan trenutak.
+          </p>
+          <a href="#" class="button button--primary">Saznaj vise</a>
+        </div>
+        <img
+          src="images/pexels-pixabay-159291.jpg"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
+    </section>
+    <!-- Contact Banner -->
+
+    <section class="contact-banner">
+      <div class="container">
+        <h2 class="contact-banner__heading">Kontaktirajte nas</h2>
+        <a href="#" class="button button--primary">Kontakt</a>
       </div>
-      
+    </section>
 
-      <!-- Footers -->
+    <!-- Testimonials -->
 
-      <footer class="block block--dark footer">
-        <div class="container grid footer__sections">
-          <div class="collapsible collapsible--expanded footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading">Proizvodi</h2>
-              <span class="icon-container">
-                <img class="icon" src="images/arrow.png" />
-              </span>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Pivo</a></li>
-                <li><a href="#">Hrana</a></li>
-                <li><a href="#">Merch</a></li>
-              </ul>
+    <div class="card testimonial">
+      <div class="testimonial__image">
+        <img
+          class="testimonial__image"
+          src="images/beer-guy.jpeg"
+          alt="Customer testimonial"
+        />
+      </div>
+
+      <blockquote class="quote">
+        <p class="quote__text">
+          Jedna od stvari koja me posebno oduševila jeste njihova ponuda hrane.
+          Odlična hrana je odličan pratilac vrhunskih piva, i u Dark Horse
+          Brewery to zaista znaju. Hrskavi pereci, sočni burgeri i osvežavajuće
+          salate su savršeno upotpunjenje njihovih pivskih kreacija.
+        </p>
+        <footer>
+          <div class="media">
+            <div class="media__body">
+              <h4 class="author">Marko Petrovic</h4>
+              <p>Muzicki novinar</p>
             </div>
           </div>
-          <div class="collapsible collapsible--expanded footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading">O nama</h2>
-              <span class="icon-container">
-                <img class="icon" src="images/arrow.png" />
-              </span>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Istorija</a></li>
-                <li><a href="#">Lokacija</a></li>
-              </ul>
-            </div>
+        </footer>
+      </blockquote>
+    </div>
+
+    <!-- Footers -->
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Proizvodi</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Pivo</a></li>
+              <li><a href="#">Hrana</a></li>
+              <li><a href="#">Merch</a></li>
+            </ul>
           </div>
-          <div class="collapsible collapsible--expanded footer__section">
-            <header class="collapsible__header">
-              <h2 class="collapsible__heading">Kontakt</h2>
-              <span class="icon-container">
-                <img class="icon" src="images/arrow.png" />
-              </span>
-            </header>
-            <div class="collapsible__content">
-              <ul class="list">
-                <li><a href="#">Newsletter</a></li>
-              </ul>
-            </div>
-          </div>
-          <section class="footer__logo">
-            <img src="images/logo.png" alt="Logo" />
-            <p class="footer__text">Copyright 2023 Maja Grubor</p>
-          </section>
         </div>
-      </footer>
-      
-      
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">O nama</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Istorija</a></li>
+              <li><a href="#">Lokacija</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">Kontakt</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Newsletter</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="footer__logo">
+          <img src="images/logo.png" alt="Logo" />
+          <p class="footer__text">Copyright 2023 Maja Grubor</p>
+        </section>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
