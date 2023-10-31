@@ -399,3 +399,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+
+//   Merch
+
+// const products = document.querySelectorAll('.merch__product');
+
+// products.forEach(product => {
+//     const content = product.querySelector('.merch__product-content')
+//     const img = product.querySelector('.merch__img');
+
+//   product.addEventListener('mouseenter', () => {
+//     content.style.opacity = 1;
+//     img.style.filter = 'grayscale(100%)';
+//   });
+
+//   product.addEventListener('mouseleave', () => {
+//     img.style.filter = 'grayscale(0%)';
+//     content.style.opacity = 0;
+//   });
+// });
+
+
