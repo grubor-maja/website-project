@@ -98,7 +98,7 @@ const foodMenuData  = [
         category: 'sendvici',
         name: 'Sendvič sa Pilećim Filetima',
         price: '530 RSD',
-        image: '/images/sendvic piletina.jpg',
+        image: '/images/sendvic avocado.jpg',
         description: 'Klasični sendvič sa hrskavim pilećim filetima.'
     },
     {
@@ -192,146 +192,146 @@ function displayFoodMenu(category) {
 const drinkMenuData = [
     {
         category: 'sva',
-        name: 'Pivo 1',
+        name: 'Helles',
         price: '350 RSD',
-        image: '/images/pivo1.webp',
+        image: '/images/sva1.png',
         description: 'Svilenkasto glatko pivo s bogatim ukusom.'
     },
     {
         category: 'sva',
-        name: 'Pivo 2',
+        name: 'Edelstoff',
         price: '380 RSD',
-        image: '/images/pivo1.webp',
+        image: '/images/sva2.png',
         description: 'Svijetlo i osvježavajuće pivo za vrele dane.'
     },
     {
         category: 'sva',
-        name: 'Pivo 3',
+        name: 'Longboard',
         price: '420 RSD',
-        image: '/images/pivo1.webp',
+        image: '/images/sva3.png',
         description: 'Klasičan izbor za sve ljubitelje piva.'
     },
     {
         category: 'sva',
-        name: 'Pivo 4',
+        name: 'Tegernseer',
         price: '370 RSD',
-        image: '/images/pivo1.webp',
+        image: '/images/sva4.png',
         description: 'Balans između gorčine i slatkoće.'
     },
     {
         category: 'sva',
-        name: 'Pivo 5',
+        name: 'Chemisser',
         price: '450 RSD',
-        image: '/images/pivo1.webp',
+        image: '/images/sva5.png',
         description: 'Pun ukus i bogata aroma, idealno za veče uživanje.',
 
     },
     {
         category: 'svetla',
-        name: 'Svetlo Pivo 1',
+        name: 'Averbode',
         price: '350 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Svijetlo pivo s osvežavajućim ukusom.'
+        image: '/images/svetlo1.png',
+        description: 'Pšenično pivo s blagom notom citrusa'
     },
     {
         category: 'svetla',
-        name: 'Svetlo Pivo 2',
+        name: 'Barbar Blond',
         price: '380 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Lagano svetlo pivo za svaku priliku.'
+        image: '/images/svetlo2.png',
+        description: 'Lagano pilsner pivo s blagim gorčim naglaskom'
     },
     {
         category: 'svetla',
-        name: 'Svetlo Pivo 3',
+        name: 'De la Senne',
         price: '420 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Klasika svetlih piva s nežnom notom.'
+        image: '/images/svetlo3.png',
+        description: 'Svetli IPA s cvetnim notama'
     },
     {
         category: 'svetla',
-        name: 'Svetlo Pivo 4',
+        name: 'Zinne Bir',
         price: '370 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Osvežavajuće i pitko svetlo pivo.'
+        image: '/images/svetlo4.png',
+        description: 'Svetlo pivo sa svežim notama limuna'
     },
     {
         category: 'svetla',
-        name: 'Svetlo Pivo 5',
+        name: 'Sportzot',
         price: '450 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Lagano svetlo pivo za uživanje na suncu.',
+        image: '/images/svetlo5.png',
+        description: 'Klasično sveto pivo uravnoteženog ukusa',
 
     },
     {
         category: 'tamna',
-        name: 'Tamno Pivo 1',
+        name: 'De Koninck',
         price: '350 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Bogat ukus tamnog piva s notama kafe i čokolade.'
+        image: '/images/tamno1.png',
+        description: 'Bogat i kremast stout s notama kafe'
     },
     {
         category: 'tamna',
-        name: 'Tamno Pivo 2',
+        name: 'Kwak',
         price: '380 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Duboki i intenzivni ukus tamnog piva.'
+        image: '/images/tamno2.png',
+        description: 'Tamni porter sa karamelnim tonovima'
     },
     {
         category: 'tamna',
-        name: 'Tamno Pivo 3',
+        name: 'St Bernardus',
         price: '420 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Tamno pivo sa slatkastim naglaskom.'
+        image: '/images/tamno3.png',
+        description: 'Duboki tamni bitter ale'
     },
     {
         category: 'tamna',
-        name: 'Tamno Pivo 4',
+        name: 'Bush',
         price: '370 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Pun ukus tamnog piva sa notama kafe.'
+        image: '/images/tamno4.png',
+        description: 'Tamno pivo s voćnim tonovima'
     },
     {
         category: 'tamna',
-        name: 'Tamno Pivo 5',
+        name: 'Celebrator',
         price: '450 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Tamno pivo s naglašenom karamel notom.',
+        image: '/images/tamno5.png',
+        description: 'Stout sa intenzivnim čokoladnim ukusom',
 
     },
     {
         category: 'vocna',
-        name: 'Vocno Pivo 1',
+        name: 'Paradise Pale Ale',
         price: '350 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Osvežavajuće pivo s dodatkom citrusa.'
+        image: '/images/vocno10.png',
+        description: 'Tropsko osveženje s primamljivom notom strastvenog voća'
     },
     {
         category: 'vocna',
-        name: 'Vocno Pivo 2',
+        name: 'Mango Tango',
         price: '380 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Voćno pivo s harmoničnom kombinacijom voća.'
+        image: '/images/vocno9.png',
+        description: 'Odlično se slaže sa začinjenim jelima i tropskim voćem'
     },
     {
         category: 'vocna',
-        name: 'Vocno Pivo 3',
+        name: 'Coconut Oasis',
         price: '420 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Sveža i voćna eksplozija u svakom gutljaju.'
+        image: '/images/vocno8.png',
+        description: 'Pivo s izraženim kokosovim ukusom'
     },
     {
         category: 'vocna',
-        name: 'Vocno Pivo 4',
-        price: '370 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Vocno pivo s naglaskom na egzotičnom voću.'
+        name: 'Delirium Red',
+        price: '600 RSD',
+        image: '/images/vocno4.png',
+        description: 'Dubok i bogat ukus crvenih plodova'
     },
     {
         category: 'vocna',
-        name: 'Vocno Pivo 5',
+        name: 'Apple Haven',
         price: '450 RSD',
-        image: '/images/pivo1.webp',
-        description: 'Slatko i osvežavajuće voćno pivo.',
+        image: '/images/vocno3.png',
+        description: 'Pun ukus jabuke sa dodatkom cieta',
 
     }
 ];
@@ -418,5 +418,23 @@ document.addEventListener("DOMContentLoaded", function () {
 //     content.style.opacity = 0;
 //   });
 // });
+
+const menuButtons = document.querySelectorAll('.menu__button');
+
+menuButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        menuButtons.forEach(btn => {
+            btn.classList.remove('menu__button-clicked');
+        });
+
+        button.classList.add('menu__button-clicked');
+    });
+});
+
+const contactBtn = document.querySelector('.contact-button');
+
+contactBtn.addEventListener('click', function() {
+    alert('Uspešno poslata poruka');
+})
 
 
