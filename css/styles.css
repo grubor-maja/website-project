@@ -306,6 +306,8 @@ a {
         display: block;
         width: 44px;
         height: 44px;
+        padding-top: 1rem;
+        padding-right: 2rem;
        
     }
     .nav-bar__burger-image {
