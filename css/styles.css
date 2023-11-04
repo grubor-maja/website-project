@@ -951,6 +951,10 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  .merch__product:active .merch__product-content {
+    background-color: #11111164;
+    opacity: 1;
+   }
 }
 
 /* Piva */
