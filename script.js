@@ -144,7 +144,17 @@ const foodMenuData  = [
 
 const foodMenuGrid = document.getElementById('menu');
 const foodButtons = document.querySelectorAll('.menu-buttons button');
+const defaultButton = document.querySelector('.menu__button-defeault');
+const defaultButton2 = document.querySelector('.menu__button-defeault2');
 
+document.addEventListener('DOMContentLoaded', function() {
+    defaultButton.classList.add("menu__button-clicked");
+    displayFoodMenu('all');
+})
+document.addEventListener('DOMContentLoaded', function() {
+    defaultButton2.classList.add("menu__button-clicked");
+    displayDrinkMenu('sva');
+})
 
 
 foodButtons.forEach(button => {
