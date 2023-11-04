@@ -946,6 +946,13 @@ hr {
   transition: 0.5s ease-in-out;
 }
 
+@media screen and (max-width:768px) {
+  .merch__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* Piva */
 
 .menu__button {
