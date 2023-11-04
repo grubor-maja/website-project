@@ -272,6 +272,7 @@ a {
     justify-content: space-between;
     padding: 1rem 3rem;
     background: var(--color-headings);
+    
 }
 .nav-bar__list {
     display: flex;
@@ -303,21 +304,23 @@ a {
     }
     .nav-bar__burger {
         display: block;
+        width: 44px;
+        height: 44px;
        
     }
     .nav-bar__burger-image {
-        width: 20px;
-        height: 20px;
+        width: 44px;
+        height: 44px;
     }
     .nav-bar__logo-image {
         width: 50px;
         height: 50px;
     }
+    
     .nav-bar .mobile-active {
         display: flex;
         flex-direction: column;
         background: #1f1f1f;
-        position: absolute;
         width: 100%;
         top: 70px;
         right: 0;
@@ -430,7 +433,8 @@ a {
   }
   .hero__image {
     padding-top: 10rem;
-    width: 30rem;
+    width: 40rem;
+    padding-bottom: 5rem;
   }
 }
 
