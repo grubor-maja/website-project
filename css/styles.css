@@ -976,7 +976,8 @@ hr {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: auto;
+  width: 90%;
+  margin-bottom: 22rem;
 }
 .forma label, .forma input, .forma button, .forma textarea {
   display: block;
@@ -994,7 +995,9 @@ hr {
 .form__heading {
   text-align: center;
 }
-
+.forma h1 {
+  font-size: 5rem !important;
+}
 .contact-button {
   width: 20rem !important; 
   border: 0;
