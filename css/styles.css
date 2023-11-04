@@ -451,7 +451,7 @@ body > section.block.container > article {
     }
   }
   .hero-container {
-    grid-gap: 4rem;
+    grid-gap: 5rem;
   }
 
  
@@ -462,7 +462,7 @@ body > section.block.container > article {
     margin-bottom: 1rem;
   }
   .features {
-    gap: 2rem 2rem;
+    gap: 2rem 4rem;
     vertical-align: center;
   }
   
