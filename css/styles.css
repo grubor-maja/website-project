@@ -883,6 +883,7 @@ hr {
   position: relative;
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 20rem;
 }
 .timeline::after {
   background-color: var(--color-primary);
