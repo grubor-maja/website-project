@@ -311,8 +311,8 @@ a {
        
     }
     .nav-bar__burger-image {
-        width: 44px;
-        height: 44px;
+        width: 38px;
+        height: 38px;
     }
     .nav-bar__logo-image {
         width: 50px;
@@ -951,10 +951,7 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .merch__product:active .merch__product-content {
-    background-color: #11111164;
-    opacity: 1;
-   }
+  
 }
 
 /* Piva */
