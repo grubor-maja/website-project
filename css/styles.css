@@ -590,6 +590,12 @@ a {
     text-align: center;
   }
 
+  @media screen and (max-width:768px) {
+    .testimaonial-mobile {
+      display: none;
+    }
+  }
+
   
 
 /* Collapsibles */
@@ -748,6 +754,26 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+  .menu-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .drink-menu-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .menu-item {
+    width: auto;
+  }
+  .menu-item img {
+    width: 13rem;
+    height: 13rem;
+  }
 }
 
 /* Timeline */
