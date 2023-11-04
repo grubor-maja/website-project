@@ -299,15 +299,13 @@ a {
     }
     .nav-bar__burger {
         display: block;
-        width: 44px;
-        height: 44px;
-        
-        padding-right: 2rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
        
     }
     .nav-bar__burger-image {
-        width: 38px;
-        height: 38px;
+        width: 30px;
+        height: 35px;
     }
     .nav-bar__logo-image {
         width: 50px;
