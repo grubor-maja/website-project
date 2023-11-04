@@ -406,7 +406,7 @@ a {
     padding-bottom: 3rem;
 }
 .hero__image {
-    width: 600px;
+    width: 60rem;
 }
 .hero__content h1 {
     font-size: 7rem;
@@ -428,6 +428,7 @@ a {
     .hero__content {
         text-align: left;
         align-self: center;
+        padding-left: 2rem;
     }
   }
   .hero-container {
