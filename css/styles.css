@@ -423,6 +423,18 @@ a {
   padding-bottom: 15rem;
 }
 
+@media screen and (max-width: 768px) {
+  .hero__content {
+    padding-left: 2rem;
+    max-width: min-content; 
+  }
+  .hero__image {
+    padding-top: 10rem;
+    width: 30rem;
+  }
+}
+
+
 
 @media screen and (min-width:769px) {
     .hero__content {
@@ -435,12 +447,7 @@ a {
     grid-gap: 4rem;
   }
 
-  @media screen and (max-width:768px) {
-    .hero__content {
-      padding-left: 2rem;
-      width: min-content;
-    }
-  }
+ 
 
   /* Features */
 
