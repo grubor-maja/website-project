@@ -945,6 +945,7 @@ hr {
 
 }
 .timeline__heading h1 {
+  font-size: 7rem !important;
   color: white;
 }
 
@@ -966,6 +967,13 @@ hr {
   }
   .right {
     left: 0%;
+  }
+  .timeline__heading {
+    background-color:var(--color-background) ;
+    
+  }
+  .timeline__heading h1 {
+    color: #111111;
   }
 }
 
